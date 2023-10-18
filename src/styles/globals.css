@@ -616,3 +616,161 @@ a {
   padding-bottom: 10px;
   padding-top: 10px;
 }
+
+.map-img{
+  width: 100%;
+  height:100%;
+}
+
+
+.contact-holder{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: black;
+}
+
+.contact-icons{
+  background: #fea116;
+  border-radius: 50%;
+  padding: 3px;
+  color: white;
+  float: left;
+
+}
+
+.call-us{
+  background-color: #fff5e6;
+  color: rgb(36, 36, 36);
+  padding: 5px;
+  padding-right: 10px;
+  border-radius: 25px;
+  display: inline-block;
+  width: 120px;
+  text-align: center;
+  cursor: pointer;
+}
+.whatsapp{
+  background-color: rgb(38, 255, 38);
+  animation: glow-icons2 2s ease-in-out 1s infinite; 
+}
+.call{
+  background: rgb(97, 97, 255);
+  animation: glow-icons1 2s ease-in-out 2s infinite; 
+}
+.email{
+  background-color: rgb(255, 46, 46);
+  animation: glow-icons 2s ease-in-out 2.5s infinite; 
+
+}
+.view-in-map{
+  color: rgb(0, 176, 0);
+}
+
+.img1{
+  height: 100%;
+  width: 100%;
+}
+.cimg{
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.staff-c{
+  margin-bottom: 100px;
+}
+
+.enquire-text{
+  color: #3a62a2;
+}
+
+.enquire{
+  margin-bottom: 20px;
+  color: white;
+}
+
+.close-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: white;
+  background: rgb(255, 29, 29);
+  cursor: pointer;
+  border-radius: 50%;
+  animation: glow 2s ease-in-out infinite; 
+  padding: 5px;
+  font-size: 26px !important;
+}
+
+@keyframes glow {
+  0% {
+    transform: scale(0.8);
+  }
+  50%{
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.8);
+  }
+}
+
+@keyframes glow-icons {
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes glow-icons1 {
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes glow-icons2 {
+  0% {
+    transform: scale(1);
+  }
+  50%{
+    transform: scale(1.3);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .enquire{
+    font-size: 240%;
+    margin-bottom: 40px;
+  }
+  .call-us{
+    width: 240px;
+    font-size: 130%;
+    padding: 7px
+  }
+  .contact-icons{
+    font-size: 33px !important;
+  }
+
+  .close-icon{
+    top: 15px;
+    right: 15px;
+    font-size: 35px !important;
+  }
+  
+}

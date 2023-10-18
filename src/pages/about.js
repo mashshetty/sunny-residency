@@ -3,64 +3,56 @@ import React from 'react'
 function About() {
     return (
         <div>
-            <div class="container-xxl bg-white p-0">
-                <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-                    <div class="spinner-border text-primary" >
-                        <span class="sr-only">Loading...</span>
+            <div className="container-xxl bg-white p-0">
+                <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                    <div className="spinner-border text-primary" >
+                        <span className="sr-only">Loading...</span>
                     </div>
                 </div>
 
-                <div class="container-fluid bg-dark px-0">
-                    <div class="row gx-0">
-                        <div class="col-lg-3 bg-dark d-none d-lg-block">
-                            <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                                <h1 class="m-0 text-primary text-uppercase">Sunny</h1>
+                <div className="container-fluid bg-dark px-0">
+                    <div className="row gx-0">
+                        <div className="col-lg-3 bg-dark d-none d-lg-block">
+                            <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                                <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
                             </a>
                         </div>
-                        <div class="col-lg-9">
-                            {/* <div class="row gx-0 bg-white d-none d-lg-flex">
-                        <div class="col-lg-7 px-5 text-start">
-                            <div class="h-100 d-inline-flex align-items-center py-2 me-4">
-                                <i class="fa fa-envelope text-primary me-2"></i>
-                                <p class="mb-0 staff-text">info@example.com</p>
+                        <div className="col-lg-9">
+                            {/* <div className="row gx-0 bg-white d-none d-lg-flex">
+                        <div className="col-lg-7 px-5 text-start">
+                            <div className="h-100 d-inline-flex align-items-center py-2 me-4">
+                                <i className="fa fa-envelope text-primary me-2"></i>
+                                <p className="mb-0 staff-text">info@example.com</p>
                             </div>
-                            <div class="h-100 d-inline-flex align-items-center py-2">
-                                <i class="fa fa-phone-alt text-primary me-2"></i>
-                                <p class="mb-0 staff-text">+012 345 6789</p>
+                            <div className="h-100 d-inline-flex align-items-center py-2">
+                                <i className="fa fa-phone-alt text-primary me-2"></i>
+                                <p className="mb-0 staff-text">+012 345 6789</p>
                             </div>
                         </div>
-                        <div class="col-lg-5 px-5 text-end">
-                            <div class="d-inline-flex align-items-center py-2">
-                                <a class="me-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
-                                <a class="" href=""><i class="fab fa-youtube"></i></a>
+                        <div className="col-lg-5 px-5 text-end">
+                            <div className="d-inline-flex align-items-center py-2">
+                                <a className="me-3" href=""><i className="fab fa-facebook-f"></i></a>
+                                <a className="me-3" href=""><i className="fab fa-twitter"></i></a>
+                                <a className="me-3" href=""><i className="fab fa-linkedin-in"></i></a>
+                                <a className="me-3" href=""><i className="fab fa-instagram"></i></a>
+                                <a className="" href=""><i className="fab fa-youtube"></i></a>
                             </div>
                         </div>
                     </div> */}
-                            <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-                                <a href="/" class="navbar-brand d-block d-lg-none">
-                                    <h1 class="m-0 text-primary text-uppercase">Sunny Residency</h1>
+                            <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                                <a href="/" className="navbar-brand d-block d-lg-none">
+                                    <h1 className="m-0 text-primary text-uppercase">Sunny Residency</h1>
                                 </a>
-                                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                                    <span class="navbar-toggler-icon"></span>
+                                <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                                    <span className="navbar-toggler-icon"></span>
                                 </button>
-                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                                    <div class="navbar-nav mr-auto py-0">
-                                        <a href="/" class="nav-item nav-link">Home</a>
-                                        <a href="/about" class="nav-item nav-link active">About</a>
-                                        <a href="/services" class="nav-item nav-link">Services</a>
-                                        <a href="/room" class="nav-item nav-link">Rooms</a>
-                                        <div class="nav-item dropdown">
-                                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                                            <div class="dropdown-menu rounded-0 m-0">
-                                                <a href="/book" class="dropdown-item">Booking</a>
-                                                <a href="/team" class="dropdown-item">Our Team</a>
-                                                <a href="/testimonial" class="dropdown-item">Testimonial</a>
-                                            </div>
-                                        </div>
-                                        <a href="/contact" class="nav-item nav-link">Contact</a>
+                                <div className="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div className="navbar-nav mr-auto py-0">
+                                        <a href="/" className="nav-item nav-link">Home</a>
+                                        <a href="/about" className="nav-item nav-link active">About</a>
+                                        <a href="/services" className="nav-item nav-link">Services</a>
+                                        <a href="/#rooms" className="nav-item nav-link">Rooms</a>
+                                        <a href="/contact" className="nav-item nav-link">Contact</a>
                                     </div>
                                 </div>
                             </nav>
@@ -69,117 +61,72 @@ function About() {
                 </div>
 
 
-                <div class="container-fluid page-header mb-5 p-0" >
-                    <div class="container-fluid page-header-inner py-5">
-                        <div class="container text-center pb-5">
-                            <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
+                <div className="container-fluid page-header mb-5 p-0" >
+                    <div className="container-fluid page-header-inner py-5">
+                        <div className="container text-center pb-5">
+                            <h1 className="display-3 text-white mb-3 animated slideInDown">About Us</h1>
                             <nav aria-label="breadcrumb">
-                                <ol class="breadcrumb justify-content-center text-uppercase">
-                                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                    <li class="breadcrumb-item text-white active" aria-current="page">About</li>
+                                <ol className="breadcrumb justify-content-center text-uppercase">
+                                    <li className="breadcrumb-item"><a href="#">Home</a></li>
+                                    <li className="breadcrumb-item"><a href="#">Pages</a></li>
+                                    <li className="breadcrumb-item text-white active" aria-current="page">About</li>
                                 </ol>
                             </nav>
                         </div>
                     </div>
                 </div>
 
-                {/* 
-        <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="bg-white shadow" >
-                    <div class="row g-2">
-                        <div class="col-md-10">
-                            <div class="row g-2">
-                                <div class="col-md-3">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input"
-                                            placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <div class="date" id="date2" data-target-input="nearest">
-                                        <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
-                                    </div>
-                                </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                        <option selected>Adult</option>
-                                        <option value="1">Adult 1</option>
-                                        <option value="2">Adult 2</option>
-                                        <option value="3">Adult 3</option>
-                                    </select>
-                                </div>
-                                <div class="col-md-3">
-                                    <select class="form-select">
-                                        <option selected>Child</option>
-                                        <option value="1">Child 1</option>
-                                        <option value="2">Child 2</option>
-                                        <option value="3">Child 3</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn btn-primary w-100">Submit</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> */}
-
-
-                <div class="container-xxl py-5">
-                    <div class="container">
-                        <div class="row g-5 align-items-center">
-                            <div class="col-lg-6">
-                                <h6 class="section-title text-start text-primary text-uppercase">About Us</h6>
-                                <h1 class="mb-4">Welcome to <span class="text-primary text-uppercase">Sunny Residency</span></h1>
-                                <p class="mb-4 staff-text">Sunny Residency is your ultimate destination for the best bar and restaurant experience in Pune, offering a delightful culinary journey. We also provide top-notch lodging solutions, making your stay comfortable and memorable. Located in the heart of Pune, we cater to both short-term and long-term guests. Discover excellence in dining, lodging, and hospitality at Sunny Residency.</p>
-                                <div class="row g-3 pb-4">
-                                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
-                                        <div class="border rounded p-1">
-                                            <div class="border rounded text-center p-4">
-                                                <i class="fa fa-hotel fa-2x text-primary mb-2"></i>
-                                                <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                                <p class="mb-0">Rooms</p>
+                <div className="container-xxl py-5">
+                    <div className="container">
+                        <div className="row g-5 align-items-center">
+                            <div className="col-lg-6">
+                                <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
+                                <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Sunny Residency</span></h1>
+                                <p className="mb-4 staff-text">Sunny Residency is your ultimate destination for the best bar and restaurant experience in Pune, offering a delightful culinary journey. We also provide top-notch lodging solutions, making your stay comfortable and memorable. Located in the heart of Pune, we cater to both short-term and long-term guests. Discover excellence in dining, lodging, and hospitality at Sunny Residency.</p>
+                                <div className="row g-3 pb-4">
+                                    <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
+                                        <div className="border rounded p-1">
+                                            <div className="border rounded text-center p-4">
+                                                <i className="fa fa-hotel fa-2x text-primary mb-2"></i>
+                                                <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                                                <p className="mb-0">Rooms</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
-                                        <div class="border rounded p-1">
-                                            <div class="border rounded text-center p-4">
-                                                <i class="fa fa-users-cog fa-2x text-primary mb-2"></i>
-                                                <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                                <p class="mb-0">Staffs</p>
+                                    <div className="col-sm-4 wow fadeIn" data-wow-delay="0.3s">
+                                        <div className="border rounded p-1">
+                                            <div className="border rounded text-center p-4">
+                                                <i className="fa fa-users-cog fa-2x text-primary mb-2"></i>
+                                                <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                                                <p className="mb-0">Staffs</p>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
-                                        <div class="border rounded p-1">
-                                            <div class="border rounded text-center p-4">
-                                                <i class="fa fa-users fa-2x text-primary mb-2"></i>
-                                                <h2 class="mb-1" data-toggle="counter-up">1234</h2>
-                                                <p class="mb-0">Clients</p>
+                                    <div className="col-sm-4 wow fadeIn" data-wow-delay="0.5s">
+                                        <div className="border rounded p-1">
+                                            <div className="border rounded text-center p-4">
+                                                <i className="fa fa-users fa-2x text-primary mb-2"></i>
+                                                <h2 className="mb-1" data-toggle="counter-up">1234</h2>
+                                                <p className="mb-0">Clients</p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="btn btn-primary py-3 px-5 mt-2" href="">Explore More</a>
+                                <a className="btn btn-primary py-3 px-5 mt-2" href="">Explore More</a>
                             </div>
-                            <div class="col-lg-6">
-                                <div class="row g-3">
-                                    <div class="col-6 text-end">
-                                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" />
+                            <div className="col-lg-6">
+                                <div className="row g-3">
+                                    <div className="col-6 text-end">
+                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" />
                                     </div>
-                                    <div class="col-6 text-start">
-                                        <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" />
+                                    <div className="col-6 text-start">
+                                        <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" />
                                     </div>
-                                    <div class="col-6 text-end">
-                                        <img class="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg" />
+                                    <div className="col-6 text-end">
+                                        <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg" />
                                     </div>
-                                    <div class="col-6 text-start">
-                                        <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg" />
+                                    <div className="col-6 text-start">
+                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -188,98 +135,80 @@ function About() {
                 </div>
 
 
-                <div class="container-xxl py-5">
-                    <div class="container">
-                        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                            <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
-                            <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Staffs</span></h1>
+                <div className="container-xxl py-5 staff-c">
+                    <div className="container">
+                        <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
+                            <h6 className="section-title text-center text-primary text-uppercase">Our Team</h6>
+                            <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Staffs</span></h1>
                         </div>
-                        <div class="row g-4">
-                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                                <div class="rounded shadow overflow-hidden">
-                                    <div class="position-relative">
-                                        <img class="img-fluid" src="img/team-1.jpg" alt="" />
-                                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <div className="row g-4">
+                            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                                <div className="rounded shadow overflow-hidden">
+                                    <div className="position-relative">
+                                        <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
-                                    <div class="text-center p-4 mt-3">
-                                        <h5 class="fw-bold mb-0">Full Name</h5>
+                                    <div className="text-center p-4 mt-3">
+                                        <h5 className="fw-bold mb-0">Full Name</h5>
                                         <small>Designation</small>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="rounded shadow overflow-hidden">
-                                    <div class="position-relative">
-                                        <img class="img-fluid" src="img/team-2.jpg" alt="" />
-                                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                                <div className="rounded shadow overflow-hidden">
+                                    <div className="position-relative">
+                                        <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
-                                    <div class="text-center p-4 mt-3">
-                                        <h5 class="fw-bold mb-0">Full Name</h5>
+                                    <div className="text-center p-4 mt-3">
+                                        <h5 className="fw-bold mb-0">Full Name</h5>
                                         <small>Designation</small>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                                <div class="rounded shadow overflow-hidden">
-                                    <div class="position-relative">
-                                        <img class="img-fluid" src="img/team-3.jpg" alt="" />
-                                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                                <div className="rounded shadow overflow-hidden">
+                                    <div className="position-relative">
+                                        <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
-                                    <div class="text-center p-4 mt-3">
-                                        <h5 class="fw-bold mb-0">Full Name</h5>
+                                    <div className="text-center p-4 mt-3">
+                                        <h5 className="fw-bold mb-0">Full Name</h5>
                                         <small>Designation</small>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                                <div class="rounded shadow overflow-hidden">
-                                    <div class="position-relative">
-                                        <img class="img-fluid" src="img/team-4.jpg" alt="" />
-                                        <div class="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                            <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                            <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                                <div className="rounded shadow overflow-hidden">
+                                    <div className="position-relative">
+                                        <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
                                         </div>
                                     </div>
-                                    <div class="text-center p-4 mt-3">
-                                        <h5 class="fw-bold mb-0">Full Name</h5>
+                                    <div className="text-center p-4 mt-3">
+                                        <h5 className="fw-bold mb-0">Full Name</h5>
                                         <small>Designation</small>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="container newsletter mt-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-10 border rounded p-1">
-                            <div class="border rounded text-center p-1">
-                                <div class="bg-white rounded text-center p-5">
-                                    <h4 class="mb-4">Contact <span class="text-primary text-uppercase">US</span></h4>
-                                    <div class="position-relative mx-auto" >
-                                        <input class="form-control w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email" />
-                                        <button type="button" class="btn btn-primary py-2 px-3 position-absolute top-0 end-0 mt-2 me-2">Submit</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-
 
                 <div className="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
                     <div className="container pb-5">
@@ -293,8 +222,9 @@ function About() {
                             </div>
                             <div className="col-md-6 col-lg-3">
                                 <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
-                                <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Shivaji Nagar, Pune</p>
-                                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+9876654432</p>
+                                <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Shikrapur SH.55, Chakan Shikrapur Road, Near Aditya petrol Corp (IOCL, Shikrapur, Maharashtra)</p>
+                                <p className='view-in-map'> <i className="fa fa-map-marker-alt me-3"></i> <a target="_blank" href='https://www.google.com/maps/dir//Sunny+family+restaurant+and+bar,+SH.55,+Chakan+Shikrapur+Rd,+near+Aditya+petrol+Corp+(IOCL,+Shikrapur,+Maharashtra+412208/@18.6968706,74.1012745,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2d1c921e28255:0x8de7835f660ba2b0!2m2!1d74.1021328!2d18.6983188?entry=ttu'>view in map</a> </p>
+                                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 9022366065</p>
                                 <p className="mb-2"><i className="fa fa-envelope me-3"></i>sunnyresidency@gmail.com</p>
                                 <div className="d-flex pt-2">
                                     <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
@@ -323,7 +253,7 @@ function About() {
                             </div>
                         </div>
                     </div>
-                    <div className="container">
+                    {/* <div className="container">
                         <div className="copyright">
                             <div className="row">
                                 <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
@@ -341,11 +271,11 @@ function About() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
 
 
-                <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+                <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
             </div>
 
         </div>
