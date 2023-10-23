@@ -87,12 +87,12 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -639,19 +639,20 @@ a {
   padding: 3px;
   color: white;
   float: left;
+  font-size: 27px !important;
 
 }
-
-.call-us{
+.call-us {
   background-color: #fff5e6;
   color: rgb(36, 36, 36);
   padding: 5px;
   padding-right: 10px;
   border-radius: 25px;
   display: inline-block;
-  width: 120px;
+  width: 155px;
   text-align: center;
   cursor: pointer;
+  font-size: 116%;
 }
 .whatsapp{
   background-color: rgb(38, 255, 38);
@@ -688,9 +689,16 @@ a {
   color: #3a62a2;
 }
 
+.footer-c {
+  padding-top: 40px !important;
+}
 .enquire{
   margin-bottom: 20px;
   color: white;
+}
+
+.margin-map{
+margin-top: 30px;
 }
 
 .close-icon{
@@ -698,12 +706,150 @@ a {
   top: 10px;
   right: 10px;
   color: white;
-  background: rgb(255, 29, 29);
+  background: rgb(255, 57, 57);
   cursor: pointer;
   border-radius: 50%;
   animation: glow 2s ease-in-out infinite; 
   padding: 5px;
   font-size: 26px !important;
+}
+.other-img1{
+  height: 120px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.footer-mt{
+  margin-top: 20px;
+}
+
+.arrow-container{
+  margin-top: 10px;
+  color: grey;
+}
+
+.arrow-icon{
+  /* border: 1.5px solid #fea116; */
+  padding: 4px;
+  font-size: 32px;
+  border-radius: 50%;
+  animation: arrow 1.5s ease-in-out infinite; 
+}
+
+.wow:hover{
+  .activity-icn{
+    color: #ffffff !important;
+  }
+}
+
+.css-v1enk4{
+  border: none !important;
+}
+
+.menu-p-container{
+  min-height: 100vh;
+  width: 100vw;
+  background: white;
+}
+
+.menu-container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: white !important;
+}
+
+.menu-img{
+  width: 300px;
+  height: 415px;
+  object-fit: cover;
+}
+
+.menu-item{
+  width: 300px;
+  height: 415px;
+  background: red;
+  margin-bottom: 20px;
+}
+.veg-non-veg-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.veg{
+  position: relative;
+  overflow: hidden;
+  
+}
+
+.menu-label{
+  color: black;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: -16px;
+  background: rgba(0, 0, 0, 0.573);
+  color: white;
+
+}
+
+.gallery-p{
+  width: 100vw;
+  min-height: 100vh;
+  /* background: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+
+.galimg{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.gallery-c{
+  background: blue;
+  height: 500px;
+  width: 500px;
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow: scroll;
+
+}
+.gcc{
+  height: 220px;
+  width: 220px;
+  margin: 10px;
+}
+
+.gcc:hover{
+  opacity: 0.2;
+  filter: saturate(1.5);
+  opacity: 1;
+  transition: 1s ease-in-out;
+  transform: scale(1.1);  
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateX(0%);
+  }
+ 50% {
+    transform: translateX(30%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
 }
 
 @keyframes glow {
@@ -757,6 +903,10 @@ a {
   .enquire{
     font-size: 240%;
     margin-bottom: 40px;
+  }
+
+  .menu-label{
+    width: 100%;
   }
   .call-us{
     width: 240px;

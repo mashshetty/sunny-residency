@@ -76,27 +76,6 @@ function App() {
                             </a>
                         </div>
                         <div className="col-lg-9">
-                            {/* <div className="row gx-0 bg-white d-none d-lg-flex color-text">
-                                <div className="col-lg-7 px-5 text-start">
-                                    <div className="h-100 d-inline-flex align-items-center py-2 me-4">
-                                        <i className="fa fa-envelope text-primary me-2"></i>
-                                        <p className="mb-0">karnaresidency@gmail.com</p>
-                                    </div>
-                                    <div className="h-100 d-inline-flex align-items-center py-2">
-                                        <i className="fa fa-phone-alt text-primary me-2"></i>
-                                        <p className="mb-0">+012 345 6789</p>
-                                    </div>
-                                </div>
-                                <div className="col-lg-5 px-5 text-end">
-                                    <div className="d-inline-flex align-items-center py-2">
-                                        <a className="me-3" href=""><i className="fab fa-facebook-f"></i></a>
-                                        <a className="me-3" href=""><i className="fab fa-twitter"></i></a>
-                                        <a className="me-3" href=""><i className="fab fa-linkedin-in"></i></a>
-                                        <a className="me-3" href=""><i className="fab fa-instagram"></i></a>
-                                        <a className="" href=""><i className="fab fa-youtube"></i></a>
-                                    </div>
-                                </div>
-                            </div> */}
                             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                                 <a href="/" className="navbar-brand d-block d-lg-none">
                                     <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
@@ -109,11 +88,12 @@ function App() {
                                         <a href="/" className="nav-item nav-link active">Home</a>
                                         <a href="/about" className="nav-item nav-link">About</a>
                                         <a href="/services" className="nav-item nav-link">Services</a>
+                                        <a href="/menu" className="nav-item nav-link">Menu</a>
                                         <a href="/gallery" className="nav-item nav-link">Gallery</a>
+                                        {/* <a href="/gallery" className="nav-item nav-link">Gallery</a> */}
                                         <a href="#rooms" className="nav-item nav-link">Rooms</a>
                                         <a href="/contact" className="nav-item nav-link">Contact</a>
                                     </div>
-                                    {/* <a href="https://htmlcodex.com/hotel-html-template-pro" className="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Premium Version<i className="fa fa-arrow-right ms-3"></i></a> */}
                                 </div>
                             </nav>
                         </div>
@@ -124,22 +104,22 @@ function App() {
                     <div id="header-carousel" className="carousel slide" data-bs-ride="carousel">
                         <div className="carousel-inner">
                             <div className="carousel-item active">
-                                <img className="w-100 cimg" src="img/h3.jpg" alt="Image" />
+                                <img className="w-100 cimg" src="img/h3.jpg" alt="Sunny Executive carousel image1" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <div className="p-3" >
                                         <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
-                                        <h1 className="display-3 text-white mb-4 animated slideInDown"> Sunny Residency </h1>
+                                        <h1 className="display-3 text-white mb-4 animated slideInDown"> Sunny Executives </h1>
                                         <a href="#rooms" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
                                         <span onClick={() => handleOpenModel(true)} className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</span>
                                     </div>
                                 </div>
                             </div>
                             <div className="carousel-item">
-                                <img className="w-100 cimg" src="img/h2.jpg" alt="Image" />
+                                <img className="w-100 cimg" src="img/h2.jpg" alt="Sunny Executive carousel image2" />
                                 <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                                     <div className="p-3" >
                                         <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
-                                        <h1 className="display-3 text-white mb-4 animated slideInDown">Sunny Residency</h1>
+                                        <h1 className="display-3 text-white mb-4 animated slideInDown">Sunny Executives</h1>
                                         <a href="#rooms" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
                                         <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
                                     </div>
@@ -158,57 +138,14 @@ function App() {
                         </button>
                     </div>
                 </div>
-                {/* 
-                <div className="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div className="container">
-                        <div className="bg-white shadow extra-white-background" >
-                            <div className="row g-2">
-                                <div className="col-md-10">
-                                    <div className="row g-2">
-                                        <div className="col-md-3">
-                                            <div className="date" id="date1" data-target-input="nearest">
-                                                <input type="text" className="form-control datetimepicker-input"
-                                                    placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3">
-                                            <div className="date" id="date2" data-target-input="nearest">
-                                                <input type="text" className="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker" />
-                                            </div>
-                                        </div>
-                                        <div className="col-md-3">
-                                            <select className="form-select">
-                                                <option selected>Adult</option>
-                                                <option value="1">Adult 1</option>
-                                                <option value="2">Adult 2</option>
-                                                <option value="3">Adult 3</option>
-                                            </select>
-                                        </div>
-                                        <div className="col-md-3">
-                                            <select className="form-select">
-                                                <option selected>Child</option>
-                                                <option value="1">Child 1</option>
-                                                <option value="2">Child 2</option>
-                                                <option value="3">Child 3</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="col-md-2">
-                                    <button className="btn btn-primary w-100">Submit</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-
+               
                 <div className="container-xxl py-5">
                     <div className="container">
                         <div className="row g-5 align-items-center">
                             <div className="col-lg-6">
                                 <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
-                                <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Sunny Residency</span></h1>
-                                <p className="mb-4 " id="welcome-text">Sunny Residency is your ultimate destination for the best bar and restaurant experience in Pune, offering a delightful culinary journey. We also provide top-notch lodging solutions, making your stay comfortable and memorable. Located in the heart of Pune, we cater to both short-term and long-term guests. Discover excellence in dining, lodging, and hospitality at Sunny Residency.</p>
+                                <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Sunny Executives</span></h1>
+                                <p className="mb-4 " id="welcome-text">Sunny Executives is the top destination for the best bar and restaurant experience in Pune, providing a fantastic culinary journey. Our top-notch lodging solutions ensure that your stay is comfortable and memorable. Our location is centrally located in Pune. We offer exceptional dining, lodging, and hospitality services to all the guests at Sunny Executives.</p>
                                 <div className="row g-3 pb-4">
                                     <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
                                         <div className="border rounded p-1">
@@ -289,9 +226,8 @@ function App() {
                                                 <small className="border-end me-3 pe-3 staff-text"><i className="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                                 <small className='staff-text'><i className="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                             </div>
-                                            <p className="text-body mb-3">Sunny Residency offers top-notch air-conditioned rooms for a comfortable and refreshing stay, making it the best choice for a relaxing and enjoyable experience.</p>
+                                            <p className="text-body mb-3">Sunny Executives offers top-notch air-conditioned rooms for a comfortable and refreshing stay, making it the best choice for a relaxing and enjoyable experience.</p>
                                             <div className="d-flex justify-content-between">
-                                                {/* <a className="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a> */}
                                                 <span onClick={() => { handleOpenModel(true) }} className="btn btn-sm btn-dark rounded py-2 px-4">Book Now</span>
                                             </div>
                                         </div>
@@ -319,44 +255,13 @@ function App() {
                                                 <small className="border-end me-3 pe-3 staff-text"><i className="fa fa-bath text-primary me-2"></i>1 Bath</small>
                                                 <small className='staff-text'><i className="fa fa-wifi text-primary me-2"></i>Wifi</small>
                                             </div>
-                                            <p className="text-body mb-3">Sunny Residency provides cozy and affordable non-AC rooms, offering a budget-friendly option while maintaining comfort and convenience, making it a top choice for cost-conscious travelers.</p>
+                                            <p className="text-body mb-3">Sunny Executives provides cozy and affordable non-AC rooms, offering a budget-friendly option while maintaining comfort and convenience, making it a top choice for cost-conscious travelers.</p>
                                             <div className="d-flex justify-content-between">
-                                                {/* <a className="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a> */}
                                                 <span onClick={() => { handleOpenModel(true) }} className="btn btn-sm btn-dark rounded py-2 px-4">Book Now</span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                {/* <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                                <div className="room-item shadow rounded overflow-hidden">
-                                    <div className="position-relative">
-                                        <img className="img-fluid" src="img/room-3.jpg" alt="" />
-                                        <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1500/Night</small>
-                                    </div>
-                                    <div className="p-4 mt-2">
-                                        <div className="d-flex justify-content-between mb-3">
-                                            <h5 className="mb-0">Super Deluxe</h5>
-                                            <div className="ps-2">
-                                                <small className="fa fa-star text-primary"></small>
-                                                <small className="fa fa-star text-primary"></small>
-                                                <small className="fa fa-star text-primary"></small>
-                                                <small className="fa fa-star text-primary"></small>
-                                                <small className="fa fa-star text-primary"></small>
-                                            </div>
-                                        </div>
-                                        <div className="d-flex mb-3">
-                                            <small className="border-end me-3 pe-3 staff-text"><i className="fa fa-bed text-primary me-2"></i>3 Bed</small>
-                                            <small className="border-end me-3 pe-3 staff-text"><i className="fa fa-bath text-primary me-2"></i>2 Bath</small>
-                                            <small className='staff-text'><i className="fa fa-wifi text-primary me-2"></i>Wifi</small>
-                                        </div>
-                                        <p className="text-body mb-3">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
-                                        <div className="d-flex justify-content-between">
-                                            <a className="btn btn-sm btn-primary rounded py-2 px-4" href="">View Detail</a>
-                                            <a className="btn btn-sm btn-dark rounded py-2 px-4" href="">Book Now</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> */}
                             </div>
                         </div>
                     </div>
@@ -367,14 +272,14 @@ function App() {
                         <div className="col-md-6 bg-dark d-flex align-items-center">
                             <div className="p-5">
                                 <h6 className="section-title text-start text-white text-uppercase mb-3">Luxury Living</h6>
-                                <h1 className="text-white mb-4">Discover A Brand Luxurious Hotel</h1>
-                                <p className="text-white mb-4">Lodging and residency services in Pune offer a range of accommodation solutions for both short-term and long-term stays in one of India's most vibrant and culturally rich cities. Pune, known as the "Oxford of the East" and the "Cultural Capital of Maharashtra," attracts students, professionals, and tourists from across the country and the world</p>
+                                <h1 className="text-white mb-4">Discover A Brand Luxurious Restaurant Sunny Executives</h1>
+                                <p className="text-white mb-4">Lodging and residency services in Pune offer a range of accommodation solutions for all guests who stays in one of India's most vibrant and culturally rich cities. Pune, known as the "Oxford of the East" and the "Cultural Capital of Maharashtra," attracts students, professionals, and tourists from across the country and the world</p>
                                 <a href="#rooms" className="btn btn-primary py-md-3 px-md-5 me-3">Our Rooms</a>
                                 <span onClick={() => { handleOpenModel(true) }} className="btn btn-light py-md-3 px-md-5">Book A Room</span>
                             </div>
                         </div>
                         <div className="col-md-6">
-                            <img className='img1' src='/img/h1.jpg'></img>
+                            <img className='img1' src='/img/h1.jpg' alt="Sunny Executive image3"></img>
                         </div>
 
                     </div>
@@ -413,7 +318,7 @@ function App() {
                                             </div>
                                         </div>
                                         <h5 className="mb-3">Rooms</h5>
-                                        <p className="text-body mb-0">At Sunny Residency, we take pride in providing the finest rooms, ensuring that your stay is nothing short of exceptional</p>
+                                        <p className="text-body mb-0">At Sunny Executives, we take pride in providing the finest rooms, ensuring that your stay is nothing short of exceptional</p>
                                     </a>
                                 </div>
                                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -424,7 +329,7 @@ function App() {
                                             </div>
                                         </div>
                                         <h5 className="mb-3">Food & Restaurant</h5>
-                                        <p className="text-body mb-0">Sunny Residency boasts the best dining experience with a delectable menu and a top-rated restaurant, ensuring that you savor every moment of your stay with us.</p>
+                                        <p className="text-body mb-0">Sunny Executives boasts the best dining experience with a delectable menu and a top-rated restaurant, ensuring that you savor every moment of your stay with us.</p>
                                     </a>
                                 </div>
 
@@ -436,7 +341,7 @@ function App() {
                                             </div>
                                         </div>
                                         <h5 className="mb-3">Event & Party</h5>
-                                        <p className="text-body mb-0">At Sunny Residency, we excel at creating unforgettable events and parties, offering the perfect venue and services to make your celebrations truly exceptional.</p>
+                                        <p className="text-body mb-0">At Sunny Executives, we excel at creating unforgettable events and parties, offering the perfect venue and services to make your celebrations truly exceptional.</p>
                                     </a>
                                 </div>
 
@@ -503,6 +408,22 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
+                                        <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                        </div>
+                                    </div>
+                                    <div className="text-center p-4 mt-3">
+                                        <h5 className="fw-bold mb-0">Sunil Dnyndeo Theurakar</h5>
+                                        <small>Designation</small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-3 col-md-2 wow fadeInUp" data-wow-delay="0.7s">
+                                <div className="rounded shadow overflow-hidden">
+                                    <div className="position-relative">
                                         <img className="img-fluid" src="img/team-4.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
@@ -520,12 +441,12 @@ function App() {
                     </div>
                 </div>
 
-                <div className="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s">
+                <div className="container-fluid bg-dark text-light footer wow fadeIn footer-c" data-wow-delay="0.1s">
                     <div className="container pb-5">
                         <div className="row g-5">
                             <div className="col-md-6 col-lg-4">
                                 <div className="bg-primary rounded p-4">
-                                    <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Residency</h1></a>
+                                    <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Executives</h1></a>
                                     <p className="text-white mb-0">
                                         Pune's lodging services meet diverse needs in the 'Oxford of the East'.</p>
                                 </div>
@@ -534,8 +455,8 @@ function App() {
                                 <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                                 <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Shikrapur SH.55, Chakan Shikrapur Road, Near Aditya petrol Corp (IOCL, Shikrapur, Maharashtra)</p>
                                 <p className='view-in-map'> <i className="fa fa-map-marker-alt me-3"></i> <a target="_blank" href='https://www.google.com/maps/dir//Sunny+family+restaurant+and+bar,+SH.55,+Chakan+Shikrapur+Rd,+near+Aditya+petrol+Corp+(IOCL,+Shikrapur,+Maharashtra+412208/@18.6968706,74.1012745,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2d1c921e28255:0x8de7835f660ba2b0!2m2!1d74.1021328!2d18.6983188?entry=ttu'>view in map</a> </p>
-                                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 9022366065</p>
-                                <p className="mb-2"><i className="fa fa-envelope me-3"></i>sunnyresidency@gmail.com</p>
+                                <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 7022318883</p>
+                                <p className="mb-2"><i className="fa fa-envelope me-3"></i>sunnyexecutives@gmail.com</p>
                                 <div className="d-flex pt-2">
                                     <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-twitter"></i></a>
                                     <a className="btn btn-outline-light btn-social" href=""><i className="fab fa-facebook-f"></i></a>
@@ -549,9 +470,10 @@ function App() {
                                         <h6 className="section-title text-start text-primary text-uppercase mb-4">Company</h6>
                                         <a className="btn btn-link" href="/about">About Us</a>
                                         <a className="btn btn-link" href="/contact">Contact Us</a>
-                                        <a className="btn btn-link" href="">Privacy Policy</a>
-                                        <a className="btn btn-link" href="">Terms & Condition</a>
-                                        <a className="btn btn-link" href="">Support</a>
+                                        <a className="btn btn-link" href="/services">Services</a>
+                                        {/* <a className="btn btn-link" href="">Privacy Policy</a> */}
+                                        {/* <a className="btn btn-link" href="">Terms & Condition</a> */}
+                                        {/* <a className="btn btn-link" href="">Support</a> */}
                                     </div>
                                     <div className="col-md-6">
                                         <h6 className="section-title text-start text-primary text-uppercase mb-4">Services</h6>
@@ -563,25 +485,6 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    {/* <div className="container">
-                        <div className="copyright">
-                            <div className="row">
-                                <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                    All Right Reserved.
-
-                                    Developed By Vithesh Shetty
-                                </div>
-                                <div className="col-md-6 text-center text-md-end">
-                                    <div className="footer-menu">
-                                        <a href="">Home</a>
-                                        <a href="">Cookies</a>
-                                        <a href="">Help</a>
-                                        <a href="">FQAs</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
                 </div>
                 <a href="#" className="btn btn-lg btn-primary btn-lg-square back-to-top"><i className="bi bi-arrow-up"></i></a>
             </div>
