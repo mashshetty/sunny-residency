@@ -49,7 +49,7 @@ function Services() {
                 <div className="container-fluid page-header mb-5 p-0" >
                     <div className="container-fluid page-header-inner py-5">
                         <div className="container text-center pb-5">
-                            <h1 className="display-3 text-white mb-3 animated slideInDown">Services</h1>
+                            <h1 className="display-3 text-white mb-3 animated slideInDown">Our Services</h1>
                             <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb justify-content-center text-uppercase">
                                     <li className="breadcrumb-item"><a href="#">Home</a></li>

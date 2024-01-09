@@ -180,16 +180,16 @@ function App() {
                             <div className="col-lg-6">
                                 <div className="row g-3">
                                     <div className="col-6 text-end">
-                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/about-1.jpg" />
+                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/h3.jpg" />
                                     </div>
                                     <div className="col-6 text-start">
-                                        <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/about-2.jpg" />
+                                        <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/h4.jpg" />
                                     </div>
                                     <div className="col-6 text-end">
-                                        <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/about-3.jpg" />
+                                        <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/h1.jpg" />
                                     </div>
                                     <div className="col-6 text-start">
-                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/about-4.jpg" />
+                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/h2.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -354,13 +354,13 @@ function App() {
                     <div className="container">
                         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h6 className="section-title text-center text-primary text-uppercase">Our Team</h6>
-                            <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Staffs</span></h1>
+                            <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Partners</span></h1>
                         </div>
                         <div className="row g-4">
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -376,7 +376,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/team-2.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -392,7 +392,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/team-3.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -408,7 +408,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/team-1.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -424,7 +424,7 @@ function App() {
                             <div className="col-lg-3 col-md-2 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/team-4.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
