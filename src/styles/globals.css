@@ -844,6 +844,7 @@ margin-top: 30px;
   width: 100% !important;
 }
 
+
 @keyframes arrow {
   0% {
     transform: translateX(0%);

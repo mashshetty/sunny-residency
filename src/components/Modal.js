@@ -44,7 +44,7 @@ export default function BasicModal(props) {
       >
         <Box sx={style}>
             
-            <div className='contact-holder'>
+            <div className='contact-holder anim'>
                 <CloseIcon className='close-icon' onClick={()=>handleClose()}/>
 
           <Typography id="modal-modal-title" variant="h6" component="h2">
@@ -54,12 +54,12 @@ export default function BasicModal(props) {
           
           
           <p>
-           <a href="https://wa.me/9741104490"> <span className='call-us'><WhatsAppIcon fontSize='medium' className='contact-icons whatsapp'/> Chat Now </span>  </a>
+           <a href="https://wa.me/7022318883"> <span className='call-us'><WhatsAppIcon fontSize='medium' className='contact-icons whatsapp'/> Chat Now </span>  </a>
           </p>
-          <p><a href="tel:+9741104490"> <span className='call-us'><AddIcCallIcon fontSize='medium' className='contact-icons call'/> Call Us </span></a></p>
+          <p><a href="tel:+7022318883"> <span className='call-us'><AddIcCallIcon fontSize='medium' className='contact-icons call'/> Call Us </span></a></p>
 
           <p>
-           <a href="mailto:someone@example.com"> <span className='call-us'><EmailIcon fontSize='medium' className='contact-icons email'/> Email Us</span> </a>
+           <a href="#"> <span className='call-us'><EmailIcon fontSize='medium' className='contact-icons email'/> Email Us</span> </a>
           </p>
           </div>
           

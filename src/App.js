@@ -121,7 +121,7 @@ function App() {
                                         <h6 className="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                                         <h1 className="display-3 text-white mb-4 animated slideInDown">Sunny Executives</h1>
                                         <a href="#rooms" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                                        <a href="" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+                                        <a href="#rooms" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
                                     </div>
                                 </div>
                             </div>
