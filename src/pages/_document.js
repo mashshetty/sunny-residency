@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link href="/img/favicon.ico" rel="icon" />
+        <link href="/img/h2.jpg" rel="icon" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -15,7 +15,7 @@ export default function Document() {
         <link href="/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
         <link href="/css/bootstrap.min.css" rel="stylesheet" />
         <link href="/css/style.css" rel="stylesheet" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/img/h2.jpg" />
       </Head>
       <body>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
