@@ -7,6 +7,8 @@ function contact() {
         <> 
            <Head>
             <title> Contact Us - Sunny Executives</title>
+            <meta name="description" content="Connect with Sunny Executives for inquiries, bookings, or any assistance you need during your stay in Pune. Our team is dedicated to ensuring your comfort and satisfaction." />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
            </Head>
             <div className="container-xxl bg-white p-0">
                 <div id="spinner" className="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">

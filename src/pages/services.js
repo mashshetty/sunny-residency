@@ -6,6 +6,8 @@ function Services() {
         <>
             <Head>
                 <title>Services - Sunny Executives</title>
+                <meta name="description" content="Sunny Executives provides exceptional services tailored to meet your needs in Pune. Explore our range of offerings designed to enhance your experience in the vibrant city of Maharashtra." />
+                  <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             <div className="container-xxl bg-white p-0">
 

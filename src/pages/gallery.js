@@ -1,8 +1,14 @@
+import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
 
 function gallery() {
   return (
     <>
+      <Head>
+        <title>Gallery - Sunny Executives</title>
+        <meta name="description" content="Explore the visual delights of Sunny Executives in Pune through our captivating gallery. Immerse yourself in the beauty of our accommodations, dining options, and the vibrant ambiance of Maharashtra's cultural hub." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+      </Head>
       <div className="container-fluid bg-dark px-0">
         <div className="row gx-0">
           <div className="col-lg-3 bg-dark d-none d-lg-block">

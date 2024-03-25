@@ -21,45 +21,45 @@ function About() {
     const [ref, inView] = useInView();
     const [refs, inViews] = useInView();
     const [refr, inViewr] = useInView();
-  
+
     useEffect(() => {
-      if (inView) {
-        const interval = setInterval(() => {
-          if (clients < 1150) {
-            setClients(clients + 1);
-          } else {
-            clearInterval(interval);
-          }
-        }, 5); // Adjust the interval for the desired animation speed
-        return () => clearInterval(interval);
-      }
+        if (inView) {
+            const interval = setInterval(() => {
+                if (clients < 1150) {
+                    setClients(clients + 1);
+                } else {
+                    clearInterval(interval);
+                }
+            }, 5); // Adjust the interval for the desired animation speed
+            return () => clearInterval(interval);
+        }
     }, [clients, inView]);
 
     useEffect(() => {
         if (inViews) {
-          const interval = setInterval(() => {
-            if (staffs < 50) {
-              setStaffs(staffs + 1);
-            } else {
-              clearInterval(interval);
-            }
-          }, 60); // Adjust the interval for the desired animation speed
-          return () => clearInterval(interval);
+            const interval = setInterval(() => {
+                if (staffs < 50) {
+                    setStaffs(staffs + 1);
+                } else {
+                    clearInterval(interval);
+                }
+            }, 60); // Adjust the interval for the desired animation speed
+            return () => clearInterval(interval);
         }
-      }, [staffs, inViews]);
+    }, [staffs, inViews]);
 
-      useEffect(() => {
+    useEffect(() => {
         if (inViewr) {
-          const interval = setInterval(() => {
-            if (rooms < 8) {
-              setRooms(rooms + 1);
-            } else {
-              clearInterval(interval);
-            }
-          }, 40); // Adjust the interval for the desired animation speed
-          return () => clearInterval(interval);
+            const interval = setInterval(() => {
+                if (rooms < 8) {
+                    setRooms(rooms + 1);
+                } else {
+                    clearInterval(interval);
+                }
+            }, 40); // Adjust the interval for the desired animation speed
+            return () => clearInterval(interval);
         }
-      }, [rooms, inViewr]);
+    }, [rooms, inViewr]);
 
     const handleOpenModel = (flag) => {
         setModelOpen(flag)
@@ -70,6 +70,8 @@ function About() {
         <>
             <Head>
                 <title> About Us - Sunny Executives</title>
+                <meta name="description" content="Discover the story behind Sunny Executives, your premier destination for hospitality in Pune. Learn about our commitment to providing exceptional lodging and dining experiences in Maharashtra's cultural hub." />
+                <meta name="viewport" content="width=device-width, initial-scale=1" />
             </Head>
             {modelOpen && <BasicModal handleOpenModel={handleOpenModel} modelOpen={true} />}
             <div>
@@ -201,7 +203,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Industrial Catering</h5>
                                             <p className="text-body mb-0">For many industries, like corporate offices, manufacturers, etc., industrial catering is crucial.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
 
 
                                         </a>
@@ -215,7 +217,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Management Of Guest House</h5>
                                             <p className="text-body mb-0">Our team of hospitality managers has years of expertise and is skilled in running guest homes.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
 
                                         </a>
                                     </div>
@@ -229,7 +231,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">House Keeping Services</h5>
                                             <p className="text-body mb-0">For people or businesses to maintain clean spaces, we offer expert cleaning and maintenance services.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
 
                                         </a>
                                     </div>
@@ -243,7 +245,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">VP & VIP Guest House</h5>
                                             <p className="text-body mb-0">When VIPs and vice presidents travel for business, we provide a premium lodging option.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
 
                                         </a>
                                     </div>
@@ -257,7 +259,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Laundry Service</h5>
                                             <p className="text-body mb-0">We refers to a skilled service that handles washing, drying, and other textile-related tasks on behalf of clients.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
                                         </a>
                                     </div>
 
@@ -270,7 +272,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Food Material Supply</h5>
                                             <p className="text-body mb-0">Food materials, which might include fruits, vegetables, grains, and more, are the items required to prepare and cook food.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
                                         </a>
                                     </div>
                                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -282,7 +284,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Man Power Supply</h5>
                                             <p className="text-body mb-0">By providing labor or human resources, Ganga Hospitality Service helps businesses meet their staffing demands.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
                                         </a>
                                     </div>
                                     <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -294,7 +296,7 @@ function About() {
                                             </div>
                                             <h5 className="mb-3">Management Of Hotels</h5>
                                             <p className="text-body mb-0">Effective departmental collaboration and a dedication to delivering first-rate customer service are essential for successful hotel management.</p>
-                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon'/> </p>
+                                            <p className='arrow-container'> <ArrowForwardIcon className='arrow-icon' /> </p>
                                         </a>
                                     </div>
 
@@ -376,21 +378,21 @@ function About() {
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                                <div className="rounded shadow overflow-hidden">
-                                    <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="unknown" />
-                                        <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
-                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
-                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
-                                            <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                    <div className="rounded shadow overflow-hidden">
+                                        <div className="position-relative">
+                                            <img className="img-fluid" src="img/unknown.jpg" alt="unknown" />
+                                            <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
+                                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
+                                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
+                                                <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-instagram"></i></a>
+                                            </div>
+                                        </div>
+                                        <div className="text-center p-4 mt-3">
+                                            <h5 className="fw-bold mb-0">Sunil Dnyndeo Theurakar</h5>
+                                            <small>Designation</small>
                                         </div>
                                     </div>
-                                    <div className="text-center p-4 mt-3">
-                                        <h5 className="fw-bold mb-0">Sunil Dnyndeo Theurakar</h5>
-                                        <small>Designation</small>
-                                    </div>
                                 </div>
-                            </div>
                             </div>
                         </div>
                     </div>
