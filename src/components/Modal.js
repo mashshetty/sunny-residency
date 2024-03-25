@@ -54,7 +54,7 @@ export default function BasicModal(props) {
           
           
           <p>
-           <a href="https://wa.me/7022318883"> <span className='call-us'><WhatsAppIcon fontSize='medium' className='contact-icons whatsapp'/> Chat Now </span>  </a>
+           <a href="https://wa.me/7022318883?text=I'm%20interested%20in%20your%services" target="_blank"> <span className='call-us'><WhatsAppIcon fontSize='medium' className='contact-icons whatsapp'/> Chat Now </span>  </a>
           </p>
           <p><a href="tel:+91 7022318883"> <span className='call-us'><AddIcCallIcon fontSize='medium' className='contact-icons call'/> Call Us </span></a></p>
 

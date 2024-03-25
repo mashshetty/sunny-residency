@@ -19,14 +19,14 @@ function contact() {
                     <div className="row gx-0">
                         <div className="col-lg-3 bg-dark d-none d-lg-block">
                             <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                                <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                                <h3 className="m-0 text-primary text-uppercase h3-fz">Sunny Executives</h3>
                             </a>
                         </div>
                         <div className="col-lg-9">
 
                             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                                 <a href="/" className="navbar-brand d-block d-lg-none">
-                                    <h1 className="m-0 text-primary text-uppercase">Sunny Bar and Restaurant</h1>
+                                    <h2 className="m-0 text-primary text-uppercase">Sunny Bar and Restaurant</h2>
                                 </a>
                                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                     <span className="navbar-toggler-icon"></span>
@@ -66,7 +66,7 @@ function contact() {
                     <div className="container">
                         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h6 className="section-title text-center text-primary text-uppercase">Contact Us</h6>
-                            <h1 className="mb-5"><span className="text-primary text-uppercase">Contact</span> For Any Query</h1>
+                            <h2 className="mb-5"><span className="text-primary text-uppercase">Contact</span> For Any Query</h2>
                         </div>
                         <div className="row g-4">
                             <div className="col-12">
@@ -88,7 +88,7 @@ function contact() {
                             <div className="col-md-6 wow fadeIn" data-wow-delay="0.1s">
                                 
                                 <a target="_blank" href='https://www.google.com/maps/dir//Sunny+family+restaurant+and+bar,+SH.55,+Chakan+Shikrapur+Rd,+near+Aditya+petrol+Corp+(IOCL,+Shikrapur,+Maharashtra+412208/@18.6968706,74.1012745,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bc2d1c921e28255:0x8de7835f660ba2b0!2m2!1d74.1021328!2d18.6983188?entry=ttu'>
-                                    <img className='map-img' src='/img/map.png'></img>
+                                    <img className='map-img' alt='map-img' src='/img/map.png'></img>
                                 </a>
                             </div>
                             <div className="col-md-6">
@@ -107,7 +107,7 @@ function contact() {
                         <div className="row g-5">
                             <div className="col-md-6 col-lg-4">
                                 <div className="bg-primary rounded p-4">
-                                    <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Executives</h1></a>
+                                    <a href="/"><h2 className="text-white text-uppercase mb-3">Sunny Executives</h2></a>
                                     <p className="text-white mb-0">
                                         Pune's lodging services meet diverse needs in the 'Oxford of the East'.</p>
                                 </div>

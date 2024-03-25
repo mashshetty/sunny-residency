@@ -63,13 +63,13 @@ function Menu() {
                 <div className="row gx-0">
                     <div className="col-lg-3 bg-dark d-none d-lg-block">
                         <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                            <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                            <h3 className="m-0 text-primary text-uppercase h3-fz">Sunny Executives</h3>
                         </a>
                     </div>
                     <div className="col-lg-9">
                         <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                             <a href="/" className="navbar-brand d-block d-lg-none">
-                                <h1 className="m-0 text-primary text-uppercase">Sunny Executives</h1>
+                                <h2 className="m-0 text-primary text-uppercase">Sunny Executives</h2>
                             </a>
                             <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                 <span className="navbar-toggler-icon"></span>
@@ -110,7 +110,7 @@ function Menu() {
                     <div className="row g-5 align-items-center">
                         <div className="col-lg-6">
                             <h6 className="section-title text-start text-primary text-uppercase">Our Menu</h6>
-                            <h1 className="mb-4">Have A Glance At Our <span className="text-primary text-uppercase">Menu</span></h1>
+                            <h2 className="mb-4">Have A Glance At Our <span className="text-primary text-uppercase">Menu</span></h2>
                             <p className="mb-4 staff-text">Welcome to Sunny Executives, We offer the best veg and non-veg dishes. Try our special quail, Kadaknath, and duck meats, as well as crab. Enjoy a unique dining experience with us, where each dish reflects our love for great food.</p>
                             <div className="row g-3 pb-4">
                                 <div className="col-sm-4 wow fadeIn veg" data-wow-delay="0.1s">
@@ -131,16 +131,16 @@ function Menu() {
                         <div className="col-lg-6">
                             <div className="row g-3">
                                 <div className="col-6 text-end">
-                                    <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/nveg5.jpg" />
+                                    <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" alt='menu-images' src="img/nveg5.jpg" />
                                 </div>
                                 <div className="col-6 text-start">
-                                    <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/nveg2.jpg" />
+                                    <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s"  alt='menu-images' src="img/nveg2.jpg" />
                                 </div>
                                 <div className="col-6 text-end">
-                                    <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/nveg3.jpg" />
+                                    <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s"  alt='menu-images' src="img/nveg3.jpg" />
                                 </div>
                                 <div className="col-6 text-start">
-                                    <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/nveg4.jpg" />
+                                    <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s"  alt='menu-images' src="img/nveg4.jpg" />
                                 </div>
                             </div>
                         </div>
@@ -148,32 +148,32 @@ function Menu() {
                 </div>
             </div>
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                                    <h1 className="mb-5">Explore Our Exceptional  <span className="text-primary text-uppercase"> Menu</span></h1>
+                                    <h2 className="mb-5">Explore Our Exceptional  <span className="text-primary text-uppercase"> Menu</span></h2>
             </div>
             <div className='menu-container'>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.1s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.2s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.3s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images'/>
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.4s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.5s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.6s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.7s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 <div className='menu-item wow fadeInUp' data-wow-delay="0.8s">
-                    <img className='menu-img' src="/img/menu1.jpg" alt="" />
+                    <img className='menu-img' src="/img/menu1.jpg"  alt='menu-images' />
                 </div>
                 
             </div>
@@ -183,7 +183,7 @@ function Menu() {
                     <div className="row g-5">
                         <div className="col-md-6 col-lg-4">
                             <div className="bg-primary rounded p-4">
-                                <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Executives</h1></a>
+                                <a href="/"><h2 className="text-white text-uppercase mb-3">Sunny Executives</h2></a>
                                 <p className="text-white mb-0">
                                     Pune's lodging services meet diverse needs in the 'Oxford of the East'.</p>
                             </div>

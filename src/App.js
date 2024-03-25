@@ -72,13 +72,13 @@ function App() {
                     <div className="row gx-0">
                         <div className="col-lg-3 bg-dark d-none d-lg-block">
                             <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                                <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                                <h2 className="m-0 text-primary text-uppercase sunny-executives-desktop">Sunny Executives</h2>
                             </a>
                         </div>
                         <div className="col-lg-9">
                             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                                 <a href="/" className="navbar-brand d-block d-lg-none">
-                                    <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                                    <h2 className="m-0 text-primary text-uppercase sunny-executives-mobile">Sunny Executives</h2>
                                 </a>
                                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                     <span className="navbar-toggler-icon"></span>
@@ -144,7 +144,7 @@ function App() {
                         <div className="row g-5 align-items-center">
                             <div className="col-lg-6">
                                 <h6 className="section-title text-start text-primary text-uppercase">About Us</h6>
-                                <h1 className="mb-4">Welcome to <span className="text-primary text-uppercase">Sunny Executives</span></h1>
+                                <h2 className="mb-4">Welcome to <span className="text-primary text-uppercase">Sunny Executives</span></h2>
                                 <p className="mb-4 " id="welcome-text">Sunny Executives is the top destination for the best bar and restaurant experience in Pune, providing a fantastic culinary journey. Our top-notch lodging solutions ensure that your stay is comfortable and memorable. Our location is centrally located in Pune. We offer exceptional dining, lodging, and hospitality services to all the guests at Sunny Executives.</p>
                                 <div className="row g-3 pb-4">
                                     <div className="col-sm-4 wow fadeIn" data-wow-delay="0.1s">
@@ -180,16 +180,16 @@ function App() {
                             <div className="col-lg-6">
                                 <div className="row g-3">
                                     <div className="col-6 text-end">
-                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.1s" src="img/h3.jpg" />
+                                        <img className="img-fluid rounded w-75 wow zoomIn" alt='carousel-img' data-wow-delay="0.1s" src="img/h3.jpg" />
                                     </div>
                                     <div className="col-6 text-start">
-                                        <img className="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.3s" src="img/h4.jpg" />
+                                        <img className="img-fluid rounded w-100 wow zoomIn"  alt='carousel-img'  data-wow-delay="0.3s" src="img/h4.jpg" />
                                     </div>
                                     <div className="col-6 text-end">
-                                        <img className="img-fluid rounded w-50 wow zoomIn" data-wow-delay="0.5s" src="img/h1.jpg" />
+                                        <img className="img-fluid rounded w-50 wow zoomIn"  alt='carousel-img'  data-wow-delay="0.5s" src="img/h1.jpg" />
                                     </div>
                                     <div className="col-6 text-start">
-                                        <img className="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/h2.jpg" />
+                                        <img className="img-fluid rounded w-75 wow zoomIn"  alt='carousel-img'  data-wow-delay="0.7s" src="img/h2.jpg" />
                                     </div>
                                 </div>
                             </div>
@@ -201,13 +201,13 @@ function App() {
                         <div className="container">
                             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                                 <h6 className="section-title text-center text-primary text-uppercase">Our Rooms</h6>
-                                <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Rooms</span></h1>
+                                <h2 className="mb-5">Explore Our <span className="text-primary text-uppercase">Rooms</span></h2>
                             </div>
                             <div className="row g-4">
                                 <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                     <div className="room-item shadow rounded overflow-hidden">
                                         <div className="position-relative">
-                                            <img className="img-fluid" src="img/room-1.jpg" alt="" />
+                                            <img className="img-fluid" src="img/room-1.jpg"  alt='rooms-img'  />
                                             <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1800/Night</small>
                                         </div>
                                         <div className="p-4 mt-2">
@@ -236,7 +236,7 @@ function App() {
                                 <div className="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                     <div className="room-item shadow rounded overflow-hidden">
                                         <div className="position-relative">
-                                            <img className="img-fluid" src="img/room-2.jpg" alt="" />
+                                            <img className="img-fluid" src="img/room-2.jpg" alt='rooms-img'/>
                                             <small className="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">1800/Night</small>
                                         </div>
                                         <div className="p-4 mt-2">
@@ -272,7 +272,7 @@ function App() {
                         <div className="col-md-6 bg-dark d-flex align-items-center">
                             <div className="p-5">
                                 <h6 className="section-title text-start text-white text-uppercase mb-3">Luxury Living</h6>
-                                <h1 className="text-white mb-4">Discover A Brand Luxurious Restaurant Sunny Executives</h1>
+                                <h2 className="text-white mb-4">Discover A Brand Luxurious Restaurant Sunny Executives</h2>
                                 <p className="text-white mb-4">Lodging and residency services in Pune offer a range of accommodation solutions for all guests who stays in one of India's most vibrant and culturally rich cities. Pune, known as the "Oxford of the East" and the "Cultural Capital of Maharashtra," attracts students, professionals, and tourists from across the country and the world</p>
                                 <a href="#rooms" className="btn btn-primary py-md-3 px-md-5 me-3">Our Rooms</a>
                                 <span onClick={() => { handleOpenModel(true) }} className="btn btn-light py-md-3 px-md-5">Book A Room</span>
@@ -307,7 +307,7 @@ function App() {
                         <div className="container">
                             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                                 <h6 className="section-title text-center text-primary text-uppercase">Our Services</h6>
-                                <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h1>
+                                <h2 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h2>
                             </div>
                             <div className="row g-4">
                                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -354,13 +354,13 @@ function App() {
                     <div className="container">
                         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h6 className="section-title text-center text-primary text-uppercase">Our Team</h6>
-                            <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Partners</span></h1>
+                            <h2 className="mb-5">Explore Our <span className="text-primary text-uppercase">Partners</span></h2>
                         </div>
                         <div className="row g-4">
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt='partners-img' />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -376,7 +376,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt='partners-img'/>
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -392,7 +392,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt='partners-img' />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -408,7 +408,7 @@ function App() {
                             <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt='partners-img' />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -424,7 +424,7 @@ function App() {
                             <div className="col-lg-3 col-md-2 wow fadeInUp" data-wow-delay="0.7s">
                                 <div className="rounded shadow overflow-hidden">
                                     <div className="position-relative">
-                                        <img className="img-fluid" src="img/unknown.jpg" alt="" />
+                                        <img className="img-fluid" src="img/unknown.jpg" alt='partners-img' />
                                         <div className="position-absolute start-50 top-100 translate-middle d-flex align-items-center">
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-facebook-f"></i></a>
                                             <a className="btn btn-square btn-primary mx-1" href=""><i className="fab fa-twitter"></i></a>
@@ -446,7 +446,7 @@ function App() {
                         <div className="row g-5">
                             <div className="col-md-6 col-lg-4">
                                 <div className="bg-primary rounded p-4">
-                                    <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Executives</h1></a>
+                                    <a href="/"><h3 className="text-white text-uppercase mb-3">Sunny Executives</h3></a>
                                     <p className="text-white mb-0">
                                         Pune's lodging services meet diverse needs in the 'Oxford of the East'.</p>
                                 </div>

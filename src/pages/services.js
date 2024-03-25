@@ -19,13 +19,13 @@ function Services() {
                     <div className="row gx-0">
                         <div className="col-lg-3 bg-dark d-none d-lg-block">
                             <a href="/" className="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                                <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                                <h3 className="m-0 text-primary text-uppercase h3-fz ">Sunny Executives</h3>
                             </a>
                         </div>
                         <div className="col-lg-9">
                             <nav className="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                                 <a href="/" className="navbar-brand d-block d-lg-none">
-                                    <h1 className="m-0 text-primary text-uppercase">Sunny</h1>
+                                    <h2 className="m-0 text-primary text-uppercase">Sunny Executives</h2>
                                 </a>
                                 <button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                                     <span className="navbar-toggler-icon"></span>
@@ -65,7 +65,7 @@ function Services() {
                     <div className="container">
                         <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                             <h6 className="section-title text-center text-primary text-uppercase">Our Services</h6>
-                            <h1 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h1>
+                            <h2 className="mb-5">Explore Our <span className="text-primary text-uppercase">Services</span></h2>
                         </div>
                         <div className="row g-4">
                             <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -112,7 +112,7 @@ function Services() {
                         <div className="row g-5">
                             <div className="col-md-6 col-lg-4">
                                 <div className="bg-primary rounded p-4">
-                                    <a href="/"><h1 className="text-white text-uppercase mb-3">Sunny Executives</h1></a>
+                                    <a href="/"><h2 className="text-white text-uppercase mb-3">Sunny Executives</h2></a>
                                     <p className="text-white mb-0">
                                         Pune's lodging services meet diverse needs in the 'Oxford of the East'.</p>
                                 </div>

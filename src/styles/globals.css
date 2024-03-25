@@ -927,5 +927,17 @@ margin-top: 30px;
     right: 15px;
     font-size: 35px !important;
   }
+
+  .sunny-executives-desktop{
+    font-size: 22px !important;
+  }
+
+  .sunny-executives-mobile{
+    font-size: 17px;
+  }
   
+}
+
+.h3-fz{
+  font-size: 20px;
 }
